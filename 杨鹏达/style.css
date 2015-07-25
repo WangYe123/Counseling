@@ -1,0 +1,57 @@
+body{background-color: rgba(118,80,80,0.05);}
+body,ul,li,h3,h2{margin: 0;padding:0;color: #666666;font-family:"Microsoft YaHei"}
+section,article,footer,div#left,div#right{background-color: #ffffff;}
+	header{background-color: #0075AA;padding: 5px 200px 5px 200px;}
+	.menu_con{color: #ffffff;position: absolute;top: 30px;left: 260px;}
+	.logo{position:absolute; left:50%; top:7px; margin-left:-140px;}
+	.person{position: absolute;top: 6px;right: 400px;}
+	.talk{position: absolute;top: 6px;right: 330px;}
+	.headface{position: absolute;top: 2px;right: 250px}
+	.cat,.banner,.main{width:752px;text-align: center;}
+	section,article{margin: 0 auto;}
+	.searchDiv{width: 775px;height: 70px;}
+	section input{background-image: url(image/search.png);width: 700px;height: 70px;padding:0 0 0 75px;border:0;}
+	#left{width: 361px;height: 580px;float: left;box-shadow: 1px 1px 1px 1px;}
+	#right{width: 362px;height: 580px;float: right;box-shadow: 1px 1px 1px 1px;}
+	#news_list li{list-style-type: none;height: 28px;line-height: 28px;text-indent: 5px;}
+	#news_list li a{text-decoration: none;color: #666666;}
+	#title{height:40px;background-color: #0075AA;color: #ffffff;}
+	#title h3{color: #ffffff;text-align: left;padding-top: 5px;padding-left: 20px;}
+	div#pic_news img{float: left;margin-left: 15px;margin-top:33px;}
+	div#pic_news h2{height: 48px;margin-top:20px;margin-bottom: 20px;}
+	div#pic_news article{float:right; width:188px; text-align:left}
+	article p{height: 60px;overflow:hidden;margin: 0;}
+	article span a{text-decoration: none;float: right;padding-right: 10px;font-size: 10px;}
+	a.more{text-decoration: none;float: right;padding-right: 10px;font-size: 16px;}
+	.r_top{height: 400px;}
+	.r_top div.headDiv{text-align: right;margin-right: 30px;margin-bottom: 20px;}
+	.r_top span{color: #333333;font-size: 20px;}
+	.applyDiv{width: 315px;height: 70px;border-radius: 5px;background-color: #0075AA;margin: 0 auto;color: #ffffff;font-size: 30px;text-align: center;padding-top: 20px;}
+	.s_pic{float: left;width: 69px;height:69px;background-color: #0075AA;border-radius: 45px;margin: 9px;}
+	.s_pic img{margin-top: 9px;}
+	.s_title{float:left;width:69px;height: 30px;margin:9px;color: #0075AA;}
+	.r_bottom h3{background-color: #0075AA;height: 35px;text-align: left;color: #ffffff;padding-top: 5px;padding-left: 20px;}
+	#span1,#span2,#span3,#span4,#span5,#span6{position: relative;}
+	#span1{top: 10px;left: 10px;font-size: 14px;}
+	#span2{top: 15px;left: 10px;font-size: 30px;}
+	#span3{top: 0px;left: 5px;font-size: 10px;}
+	#span4{top: 50px;left: 30px;font-size: 16px;}
+	#span5{top: 30px;left: 30px;font-size: 12px;}
+	#span6{top: 10px;left: -100px;font-size: 20px;}
+	footer{margin:0 auto;width: 756px;margin-top: 600px;box-shadow: 1px 1px 1px 1px;}
+	footer h3{height:40px;padding-top:14px;color: #ffffff;background-color: #0075AA;padding-left: 20px;text-align: center;}
+	.ft2 img{float: left;margin:0 12px;}
+	.ft2{width: inherit;height: 275px;}
+	footer span{float: right;padding-right: 20px;}
+	footer span a{text-decoration: none;color: #0075AA;}
+
+	/*下拉菜单样式*/
+    #layer{position:absolute;top:12%;left:11%;width:33%;padding:2% 1% 0 1%;border: 1px solid #BBBBBB;-webkit-box-shadow: 3px 3px 10px #BBBBBB;box-shadow: 3px 3px 10px #BBBBBB;background-color: #fff;}
+    .layer-hide{visibility:hidden}
+    #layer .layer-tip{display:block;font-size: 28px;padding-bottom: 3%;border-bottom: 1px solid #000;}
+    #layer .layerlist-left{width:5%;padding:0 4%;font-size: 22px;color: #5F5656;float: left;}
+    #layer .layerlist-left p{padding: 30%;}
+    #layer .layerlist-middle{margin-top:3%;float:left;}
+    #layer .layerlist-right{float:left;margin-left:-5%;padding-left: 0;margin-top:7%;width:80%;}
+    #layer .layerlist-right li{width:33%;list-style-type:none;float:left;text-align: center;padding-bottom: 6%;font-size: 18px;}
+    .layerlist-right a{text-decoration: none;color: #5F5656;}
